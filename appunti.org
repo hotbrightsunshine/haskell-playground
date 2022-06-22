@@ -1,0 +1,39 @@
+* Currying
+La funzione ~add :: Int -> Int -> Int~ non è una funzione a più parametri.
+Se utilizziamo la funzione di ~add~ con un solo argomento, questa ci ritornerà un'altra funzione che prende
+come parametro il secondo ~Int~.
+Questa è la base delle funzioni parziali. Ad esempio, ~add = (\x -> (\y -> x+y))~ è una funzione.
+Possiamo invocarla anche così:
++ ~add 1~ e ci renderà la funzione equivalente ~add = (\y -> y+1)~,
++ ~add 1 2~ rende invece una espressione ~Int~ equivalente a ~add = 1 + 1+2~.
+
+** ~Map~ function
+Funzione map: ~map :: (a -> b) -> [a] -> [b]~
+Ad esempio, una funzione per prendere tutti i quadrati di una lista può essere:
++ ~quadrati = map (\x -> x^2)~
+
+Questa funzione quindi prenderà in ingresso solamente ~[a]~ e ~[b]~.
+
+* Function Composition
+** Operatore (.)
+~(f . g)~ /equivalente a/ ~(\x -> f ( g x ))~
+Ad esempio, è possibile costruire una funzione di ordinamento inverso in questa maniera:
++ ~descSort = reverse . sort~ e prende come parametro gli stessi parametri di ~sort~.
+  Questa funzione si può scrivere anche in questa maniera ~descSort x = reverse ( sort x )~
+
+** Operatore ($)
+~f xs = map (\x -> x+1) (filter (\x -> x>1) xs)~
+~f xs = map (\x -> x+1) $ filter (\x -> x>1) xs~
+
+* Folding
+** Foldr (Fold right)
+La funzione di folding in questione è sì descritta:
++ ~foldr :: (a -> b -> b) -> b -> [a] -> b~
+Quindi, con ~foldr~ è possibile creare la funzione /somma/:
++ ~foldr (x) 0 [1, 2, ..., n] = 1 + 2 + ... + n + 0~ in questa maniera.
+In sostanza le operazioni di folding destro servono a semplificare la scrittura di funzioni composte da
++ un valore iniziale,
++ un'operazione di associazione
++ una lista di valori da associare
+che ovviamente ritornano una lista di elementi associati.
+
