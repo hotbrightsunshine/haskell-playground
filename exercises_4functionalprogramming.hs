@@ -6,5 +6,12 @@ safeHead [] = Nothing
 safeTail :: [a] -> Maybe [a]
 safeTail xs
   | null xs = Nothing
-  | otherwise  = Just (drop 1 xs)
+  | otherwise  = Just $ drop 1 xs
 
+safeLast :: [a] -> Maybe a
+safeLast xs = safeHead $ reverse xs
+
+safeInit :: [a] -> Maybe [a]
+safeInit [] = Nothing
+safeInit [_] = Nothing
+safeInit xs = Just $ init xs
