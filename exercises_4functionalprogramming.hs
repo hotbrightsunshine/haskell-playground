@@ -18,8 +18,3 @@ safeInit [_] = Nothing
 safeInit xs = Just $ init xs
 
 splitWith :: (a -> Bool) [a] -> [[a]]
-splitWith f (x:xs) =
-  if f x == False then
-    splitWith f xs
-
-
