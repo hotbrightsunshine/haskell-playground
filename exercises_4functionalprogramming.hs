@@ -8,3 +8,8 @@ safeTail xs
   | null xs = Nothing
   | otherwise  = Just (drop 1 xs)
 
+splitWith :: (a -> Bool) [a] -> [[a]]
+splitWith f (x:xs) =
+  if f x == False then
+    splitWith f xs
+
