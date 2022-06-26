@@ -14,7 +14,10 @@ safeLast xs = safeHead $ reverse xs
 
 safeInit :: [a] -> Maybe [a]
 safeInit [] = Nothing
-safeInit [_] = Nothing
-safeInit xs = Just $ init xs
+safeinit [_] = Nothing
+safeinit xs = Just $ init xs
 
-splitWith :: (a -> Bool) [a] -> [[a]]
+splitWith :: (a -> Bool) ->  [a] -> [[a]]
+splitWith func xs = previous : remaining where
+  
+splitWith _ [] = []

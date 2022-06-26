@@ -37,3 +37,10 @@ In sostanza le operazioni di folding destro servono a semplificare la scrittura 
 + una lista di valori da associare
 che ovviamente ritornano una lista di elementi associati.
 
+* Interazione con l'IO
+  In Haskell, l'interazione con l'input/output viene gestita in maniera molto differente dagli altri linguaggi di programmazione, in quanto il valore che viene determinato dall'utente è stocastico, e non appartiene al codice puro di Haskell. Per questo, è opportuno utilizzare un costrutto ~do~ che ci aiuta a definire una serie di /azioni/ da eseguire. Una azione, è un'oggetto di tipo ~IO~ che quando eseguita è in grado di ritornare un valore. Ad esempio:
+  + l'azione ~putStrLn~ è definita così: ~putStrLn :: String -> IO ()~: prende in ingresso una stringa e ritorna un /oggetto/ IO che porta con se un valore ~()~. Il valore non può essere nullo, quindi si usa ~()~ come /placeholder/.
+  + l'azione ~getLine~ invece ritorna un dato ~IO String~, che per essere /convertito/ in ~String~ deve prima essere eseguito.
+  Per attribuire un valore di una azione ad una variabile, usiamo il simbolo ~<-~ come segue:
+  + ~nome <- getLine~
+  
