@@ -3,3 +3,7 @@
   + ~basics~ has some source files regarding elementary concepts of Haskell,
   + ~appunti.org~ is a collection (not yet organized) of notes I take while learning the language.
   
+* Resources
+  Here's a list of free resources I use to learn Haskell. 
+  + [[https://upload.wikimedia.org/wikipedia/commons/2/26/Haskell.pdf]]
+  + https://hoogle.haskell.org/
