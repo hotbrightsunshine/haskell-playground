@@ -1,3 +1,4 @@
+
 -- Folding Exercises
 and' :: [Bool] -> Bool
 and' [] = True
@@ -24,3 +25,4 @@ minimum' xs = foldr1 min xs
 -- foldl reverse || foldl :: (a -> b -> a) -> a -> [b] -> a 
 reverse' ::  [a] -> [a]
 reverse' = foldl (\ xs x -> x:xs ) [] 
+

@@ -44,3 +44,4 @@ che ovviamente ritornano una lista di elementi associati.
   Per attribuire un valore di una azione ad una variabile, usiamo il simbolo ~<-~ come segue:
   + ~nome <- getLine~
   
+* 
