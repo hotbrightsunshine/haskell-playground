@@ -7,5 +7,6 @@
 * Resources
   Here's a list of free resources I use to learn Haskell. 
   + https://upload.wikimedia.org/wikipedia/commons/2/26/Haskell.pdf
-  + https://hoogle.haskell.org/
+  + https://hoogle.haskell.org/ (/not really a resource, but quite useful/)
   + https://www.seas.upenn.edu/~cis1940/spring13/lectures.html
+  + https://learnyouahaskell.github.io/chapters.html
