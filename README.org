@@ -4,9 +4,18 @@
   + ~resources~ containes some useful resources to learn Haskell, divided in exercises, theory and more,
   + ~appunti.org~ is a collection (not yet organized) of notes I take while learning the language.
   
-* Resources
-  Here's a list of free resources I use to learn Haskell. 
-  + https://upload.wikimedia.org/wikipedia/commons/2/26/Haskell.pdf
-  + https://hoogle.haskell.org/ (/not really a resource, but quite useful/)
-  + https://www.seas.upenn.edu/~cis1940/spring13/lectures.html
-  + https://learnyouahaskell.github.io/chapters.html
+* Resources (free)
+  Here's a list of free resources I use to learn Haskell; hope you find them useful!
+  These are not in any particular order. 
+  + *Haskell Wiki Book:* https://upload.wikimedia.org/wikipedia/commons/2/26/Haskell.pdf
+    Probably the main resource I used to study Haskell. Files in ~basics~ get their names from the chapters in this book. 
+  + *Hoogle:* https://hoogle.haskell.org/ (/not really a resource, but quite useful/)
+  + *CIS 194:* https://www.seas.upenn.edu/~cis1940/spring13/lectures.html
+  + *LYAH:* https://learnyouahaskell.github.io/chapters.html
+  + *Real World Haskell:* http://book.realworldhaskell.org/read/functional-programming.html
+
+* Exercises
+  Since I had some difficulties finding some valid and free exercises, I'll link some of theme here. 
+  Hopefully they're going to be available in the future! 
+  /I have downloaded some PDFs on the internet since I found them quite useful./
+  /In case any link was not working, please check among the files in/ ~resources/exercises~.
