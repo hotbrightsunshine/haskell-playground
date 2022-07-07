@@ -23,8 +23,8 @@
   I'll add some links in the future once I'll learn solidly topics covered in the exercises I've listed here. 
   /I have downloaded some PDFs on the internet since I found them quite useful./
   /In case any link was not working, please check among the files in/ ~resources/exercises~.
-  ** Map and Filtering Exercises
-    + https://www.cantab.net/users/antoni.diller/haskell/questions/quest05.pdf
-  ** Folding Exercises 
-    + https://www.cantab.net/users/antoni.diller/haskell/questions/quest06.pdf
+** Map and Filtering Exercises
+  + https://www.cantab.net/users/antoni.diller/haskell/questions/quest05.pdf
+** Folding Exercises 
+  + https://www.cantab.net/users/antoni.diller/haskell/questions/quest06.pdf
 
