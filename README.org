@@ -2,7 +2,8 @@
   This repository containes all of the functions I write while learning Haskell.
   + ~basics~ has some source files regarding elementary concepts of Haskell,
   + ~resources~ containes some useful resources to learn Haskell, divided in exercises, theory and more,
-  + ~appunti.org~ is a collection (not yet organized) of notes I take while learning the language.
+  + ~appunti.org~ is a collection (not yet organized) of notes I take while learning the language. 
+    This is to be taken as-is, it's nothing complete and never will be. Complete material is listed down below. 
   
 * Resources (free)
   Here's a list of free resources I use to learn Haskell; hope you find them useful!
@@ -17,5 +18,13 @@
 * Exercises
   Since I had some difficulties finding some valid and free exercises, I'll link some of theme here. 
   Hopefully they're going to be available in the future! 
+
+  If you notice any lack thereof, you have to know that this list is still incomplete. 
+  I'll add some links in the future once I'll learn solidly topics covered in the exercises I've listed here. 
   /I have downloaded some PDFs on the internet since I found them quite useful./
   /In case any link was not working, please check among the files in/ ~resources/exercises~.
+  ** Map and Filtering Exercises
+    + https://www.cantab.net/users/antoni.diller/haskell/questions/quest05.pdf
+  ** Folding Exercises 
+    + https://www.cantab.net/users/antoni.diller/haskell/questions/quest06.pdf
+
