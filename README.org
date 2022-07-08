@@ -1,6 +1,8 @@
 * Welcome to hotbrightsunshine's Haskell Playground!
   This repository containes all of the functions I write while learning Haskell.
-  + ~basics~ has some source files regarding elementary concepts of Haskell,
+  + *Sources* are split in categories:
+    + ~basics~ has some source files regarding elementary concepts of Haskell,
+    + ~intermediate~ has source files containing exercises and examples about some intermediate concepts of Haskell, 
   + ~small_projects~ contains some small projects I made to learn Haskell effectively,
   + ~resources~ containes some useful resources to learn Haskell, divided in exercises, theory and more,
   + ~appunti.org~ is a collection (not yet organized) of notes I take while learning the language. 
