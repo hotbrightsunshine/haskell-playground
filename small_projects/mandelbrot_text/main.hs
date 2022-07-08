@@ -1,3 +1,5 @@
+-- 8 Luglio 2022 
+
 module Main where
 import Data.Complex
 import Data.List

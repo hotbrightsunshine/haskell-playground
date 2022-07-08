@@ -33,8 +33,11 @@
   I'll add some links in the future once I'll learn solidly topics covered in the exercises I've listed here. 
 
   /I have downloaded some PDFs on the internet since I found them quite useful./
-
   /In case any link was not working, please check among the files in/ ~resources/exercises~.
+
+  Though the unpopularity of Haskell makes the search quite difficult, I was able to find some great exercises.
+  + https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems, with their relative solutions at https://wiki.haskell.org/99_questions/Solutions.
+    For ease of access, I'll put the transcription of every exercise in this repository at ~99_questions/README.org~.
   
 ** Map and Filtering Exercises
   + https://www.cantab.net/users/antoni.diller/haskell/questions/quest05.pdf
