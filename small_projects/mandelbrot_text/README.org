@@ -1,2 +1,8 @@
+* mandelbrot-text
+    This short, inefficient, and rookish project lets you display the mandelbrot set given: 
+    + A *Threshold*, or the total number of iterations (the more they are, the slower it becomes),
+    + A *Scale* which indicates how you zoom into the set. It's centered and there is no way to see further,
+    + A *Precision* which specifies how precise the final rendering should be.  
+    
 * Screenshot
 [[./screenshot.png]]
