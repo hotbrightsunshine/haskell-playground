@@ -1,14 +1,6 @@
 module Main where
 import Data.Complex
 import Data.List
-import GHC.Num
-
--- f c z = z^2 + c -> Ricorsiva
---f c z = f c z'
---  where z' = z^2 + c
-
--- SQUARE: LxH -> 3x1
--- putStr $ concat (replicate 5 (replicate 15 '█' ++ "\n"))
 
 groupIn :: Int -> [a] -> [[a]]
 groupIn _ [] = []
@@ -25,7 +17,6 @@ range' start end incr
     | start <= end = truncate' start 2 : range' (start+incr) end incr
     | otherwise = []
 
-
 f :: Complex Double -> Complex Double -> Complex Double
 f z c = z' + c
     where z' = z * z
@@ -35,7 +26,6 @@ fArr z c = res : fArr res c
     where res = f z c
 
 -- To improve...
--- It does seems that a threashold equal to 15 is okay.
 fArrFinite :: Int -> Complex Double -> Complex Double -> [Complex Double]
 fArrFinite threshold z c = take threshold $ fArr z c
 
@@ -46,7 +36,7 @@ doesArrDiverge :: Int -> Complex Double -> Bool
 doesArrDiverge threshold c = doesDiverge $ fArrFinite threshold 0 c
 
 mandelbrot :: Double -> Double -> [Complex Double]
-mandelbrot extreme prec = [  (r :+ i) | r <- range' (-extreme) extreme prec, i <- reverse $ range' (-extreme) extreme prec ]
+mandelbrot extreme prec = [  (r :+ i) | i <- range' (-extreme) extreme prec, r <-  range' (-extreme) extreme prec ]
 
 boolToString :: Bool -> Char
 boolToString True = ' '
@@ -61,7 +51,7 @@ render threshold xs  = showable $ map (boolToString . doesArrDiverge threshold) 
 
 main :: IO ()
 main = do
-    let thrsld = 50 :: Int 
-    let scale = 1 :: Double 
-    let precision = 0.01 :: Double 
+    let thrsld = 100 :: Int 
+    let scale = 1.5 :: Double 
+    let precision = 0.05 :: Double 
     putStrLn $ render thrsld $ mandelbrot scale precision

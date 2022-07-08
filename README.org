@@ -6,6 +6,13 @@
   + ~appunti.org~ is a collection (not yet organized) of notes I take while learning the language. 
     This is to be taken as-is, it's nothing complete and never will be. Complete material is listed down below. 
   
+* Small Projects
+  The ~small projects~ directory containes some of the projects I started to code at the very beginning of my Haskell learning journey. 
+  The code here might be raw and inexact, so feel free to suggest better solutions. 
+  Here is a list of all the small projects present in this repository: 
+  + *mandelbrot-text:* a Mandelbrot set visualizer.
+
+
 * Resources (free)
   Here's a list of free resources I use to learn Haskell; hope you find them useful!
   These are not in any particular order. 
