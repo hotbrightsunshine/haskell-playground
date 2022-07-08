@@ -46,5 +46,5 @@ mymap :: (t -> a) -> [t] -> [a]
 mymap f xs = [f t | t <- xs]
 
 doubleOfFirstForEvenSeconds :: [(Int, Int)] -> [Int]
-doubleOfFirstForEvenSeconds ps = map (\ (x, _) -> x * 2 ) $ filter (\ (_, y) -> even y) ps   
+doubleOfFirstForEvenSeconds ps = map (\ (x, _) -> x * 2 ) $ filter (\ (_, y) -> even y) ps
 
