@@ -1,0 +1,5 @@
+* Basics
+I'm glad you took some time to look at my learning progress. Here, you'll find functions that are part of the 'beginner' part of my Haskell learning journey. 
+Folds, scans, datatypes and lists are the main topics here. You'll be likely to find my implementation of the exercises found in the Haskell Wikibook and some 
+in the Real World Haskell Book (especially the first ones).
+I hope you'll find them useful! ~ 
