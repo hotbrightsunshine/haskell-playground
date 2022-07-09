@@ -3,8 +3,9 @@
   + *Sources* are split in categories:
     + ~basics~ has some source files regarding elementary concepts of Haskell,
     + ~intermediate~ has source files containing exercises and examples about some intermediate concepts of Haskell, 
+  + ~exercises~ contains some exercises that I copied from other sources, 
   + ~small_projects~ contains some small projects I made to learn Haskell effectively,
-  + ~resources~ containes some useful resources to learn Haskell, divided in exercises, theory and more,
+  + ~resources~ contains some useful resources to learn Haskell, divided in exercises, theory and more,
   + ~appunti.org~ is a collection (not yet organized) of notes I take while learning the language. 
     This is to be taken as-is, it's nothing complete and never will be. Complete material is listed down below. 
   
@@ -24,9 +25,13 @@
   + *CIS 194:* https://www.seas.upenn.edu/~cis1940/spring13/lectures.html
   + *LYAH:* https://learnyouahaskell.github.io/chapters.html
   + *Real World Haskell:* http://book.realworldhaskell.org/read/functional-programming.html
+  + *Haskell Learning "Guide":* https://stackoverflow.com/questions/1012573/getting-started-with-haskell
+  + *(Advanced) Typeclassopedia:* https://wiki.haskell.org/Typeclassopedia
+
 
 * Exercises
   Since I had some difficulties finding some valid and free exercises, I'll link some of theme here. 
+  Also, you may also want to check my ~exercises~ folder, where a lot of exercises from lots of different sources were put. 
   Hopefully they're going to be available in the future! 
 
   If you notice any lack thereof, you have to know that this list is still incomplete. 
@@ -35,12 +40,21 @@
   /I have downloaded some PDFs on the internet since I found them quite useful./
   /In case any link was not working, please check among the files in/ ~resources/exercises~.
 
-  Though the unpopularity of Haskell makes the search quite difficult, I was able to find some great exercises.
-  + https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems, with their relative solutions at https://wiki.haskell.org/99_questions/Solutions.
-    For ease of access, I'll put the transcription of every exercise in this repository at ~99_questions/README.org~.
+  Here's a list of great exercises that I recommend to everyone:
+  + *FP-Course:* A really well made set of Haskell exercises. They are validated with GHCi, and solutions are freely available
+    https://github.com/system-f/fp-course
+  + *99 Problems:* A great set of problems originally written for Prolog, then ported to Lisp and then translated to Haskell. 
+    https://wiki.haskell.org/H-99:_Ninety-Nine_Haskell_Problems, with their relative solutions at https://wiki.haskell.org/99_questions/Solutions.
+  + *Project Euler:* For the more "math oriented" ones, I recommend this list of exercises. They are listed by the number of people who
+    resolved it, so they should be quite simple at the starting, and then more difficult as one goes on.  
+    This is not Haskell-focused, so there won't be problems to be solved in a certain manner: you decide how (which can be dispersive).
+    https://projecteuler.net/index.php?section=problems
+  + *CIS 554:* Here is an old page retrieved with the WayBack Machine contaning some exercises.
+    https://web.archive.org/web/20210422221825/https://www.cis.upenn.edu/~matuszek/cis554-2015/Assignments/haskell-1-exercises.html
   
 ** Map and Filtering Exercises
   + https://www.cantab.net/users/antoni.diller/haskell/questions/quest05.pdf
 ** Folding Exercises 
   + https://www.cantab.net/users/antoni.diller/haskell/questions/quest06.pdf
-
+** Data types
+  + https://www.cantab.net/users/antoni.diller/haskell/questions/quest09.pdf

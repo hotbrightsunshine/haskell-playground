@@ -37,10 +37,8 @@ removeDupl99 = foldl (flip suppl) [] where
         | x == head acc = acc
         | otherwise = x : acc
 
-group99 :: (Eq a) => [a] -> [[a]]
-group99 = foldl (flip suppl) [] where 
-    suppl x acc 
-        | null acc = [[x]]
-        | x == head acc = [x] : [first acc]
+-- group99: I wasn't able to find a solution. Last revision: 9 Lug 2022
+
+
 
 
