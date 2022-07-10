@@ -41,6 +41,7 @@
   /In case any link was not working, please check among the files in/ ~resources/exercises~.
 
   Here's a list of great exercises that I recommend to everyone:
+  + *Codewars:* A website with tons of exercises and mini-project to improve problem solving skills, https://www.codewars.com/
   + *FP-Course:* A really well made set of Haskell exercises. They are validated with GHCi, and solutions are freely available
     https://github.com/system-f/fp-course
   + *99 Problems:* A great set of problems originally written for Prolog, then ported to Lisp and then translated to Haskell. 
